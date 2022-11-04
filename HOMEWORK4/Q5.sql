@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM city WHERE city LIKE 'R%r';
+SELECT COUNT(*) FROM city WHERE city ILIKE '%r';
