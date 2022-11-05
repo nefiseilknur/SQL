@@ -1,0 +1,1 @@
+CREATE TABLE employee (id INTEGER, ame VARCHAR(50),birthday DATE, mail VARCHAR(100));

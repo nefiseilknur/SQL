@@ -1,0 +1,19 @@
+DELETE FROM employee
+WHERE  id = 9
+RETURNING *;
+
+DELETE FROM employee
+WHERE  name LIKE 'A%n'
+RETURNING *;
+
+DELETE FROM employee
+WHERE  id = 11
+RETURNING *;
+
+DELETE FROM employee
+WHERE   name LIKE 'K%'
+RETURNING *;
+
+DELETE FROM employee
+WHERE  email LIKE '%m'
+RETURNING *;
